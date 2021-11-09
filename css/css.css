@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(44, 44, 44);
+    background-image: linear-gradient(rgb(44, 44, 44), rgb(163, 163, 163));
+}
+img{
+    max-width: 75px;
+    
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+.grid-container > div {
+   
+    text-align: center;
+    
+}
+p{
+  font-family: 'Exo 2';
+  color:white;  
+  font-size:20px;
+}
+.zahlavi{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;  
+}
+h1{
+    font-family: 'Mohave'; font-size: 48px;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    font-size: 40px;  
+}
+iframe{
+  border-radius: 25px;
+  border:1px solid black;
+  
+  
+}
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto  ;
+    grid-gap: 10px;
+    padding: 10px;
+}
+.grid-container1 > div {
+   
+    text-align: center;
+    
+}
+
+h3{
+font-family: 'Exo 2';
+  color:white;  
+  font-size:30px;
+}
+.schovka{
+    color: rgba(44, 44, 44, 0);
+}
