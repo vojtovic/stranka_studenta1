@@ -14,6 +14,7 @@
         href="https://fonts.googleapis.com/css?family=Courier New&effect=neon|outline|emboss|shadow-multiple|anaglyph|wallpaper|shadow-multiple|ice|3d">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mohave&effect=fire">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Exo 2">
+    
 
     <title>Document</title>
 </head>
@@ -25,69 +26,126 @@
     <main>
         <p style="text-align:center;">Vítám vás na mojí stránce kde si mužete přečíst něco o mě, nebo se podívat na
             starší projekty.</p>
-        <h2 class="font-effect-3d">Neco o mě</h2>
+        <h2 class="font-effect-3d">Něco o mně</h2>
         <hr>
-        <p>Jmenuji se Václav Vojtovič, jsem 16-ti letý studentem, sportovec a gamer. Studuji na Střední škole průmyslové
-            a umělecké v Opavě kde se věnuji oboru IT. Ve volnem čase se věnuji seberozvoji a sebezdokonalování.
-        </p>
+        <div class="grid-container1">
+            <div class="stranka1"><img id = "ja" src="fotky/241359322_991110028099161_6051031335857335196_n.jpg" alt="ja"></div>
+            <div class="stranka"> <p >Jmenuji se Václav Vojtovič, jsem 16-ti letý studentem, sportovec a gamer. Studuji na Střední škole průmyslové
+                a umělecké v Opavě kde se věnuji oboru IT. Ve volnem čase se věnuji seberozvoji a sebezdokonalování.
+            </p></div>
+        </div>
+        
         <hr>
         <h2 class="font-effect-3d">Projekty</h2>
         <hr>
-
+        <div class="container-fluid">
+            
+            
         <div class="grid-container1">
             <div class="stranka1">
-                <h3>Základy JS <p class="schovka">1111111111111111111111111111111</p>
-
+                <h3 >Základy JS <p class="schovka">1111111111111111111111111111111</p>
+                    <a href="https://vojtovic.github.io/vaclav/"><img src="https://img.icons8.com/fluency/96/000000/link.png"/></a>
                 </h3>
                 <p>status: dokončen</p>
             </div>
-            <div class="stranka"><iframe src="https://vojtovic.github.io/vaclav/" width="100%" height="400"
-                    style="border:none;"></iframe></div>
+            <div class="stranka"><iframe id="podsviceni" src="https://vojtovic.github.io/vaclav/" width="100%" height="400"
+                    style="border:none; "></iframe></div>
         </div>
+<script>
+        const zmena = document.querySelector ('#podsviceni');
 
+        zmena.addEventListener('mouseover',function(){
+        zmena.style.boxShadow = '5px 10px 18px red ';
+})
+        
+        zmena.addEventListener('mouseout',function(){
+        zmena.style.boxShadow = '0px 0px 0px red';
+})
+
+</script>
         </iframe>
         <div class="grid-container1">
             <div class="stranka1">
                 <h3>Ročníkový projekt</h3><br>
+                <a href="https://vojtovic.github.io/zaverecnyprojekt/"><img src="https://img.icons8.com/fluency/96/000000/link.png"/></a>
                 <p>status: dokončen</p>
             </div>
-            <div class="stranka"><iframe src="https://vojtovic.github.io/zaverecnyprojekt/" width="100%" height="400"
+            <div class="stranka2"><iframe id="podsviceni1"src="https://vojtovic.github.io/zaverecnyprojekt/" width="100%" height="400"
                     style="border:none;"></iframe></div>
         </div>
 
+        <script>
+            const zmena1 = document.querySelector ('#podsviceni1');
+    
+            zmena1.addEventListener('mouseover',function(){
+            zmena1.style.boxShadow = '5px 10px 18px red ';
+    })
+            
+            zmena1.addEventListener('mouseout',function(){
+            zmena1.style.boxShadow = '0px 0px 0px red';
+    })
+    
+    </script>
         </iframe>
         <div class="grid-container1">
             <div class="stranka1">
                 <h3>Programy a data</h3>
                 <p class="schovka">111111111111111111111111111111</p>
+                <a href="https://vojtovic.github.io/Programy_a_data/"><img src="https://img.icons8.com/fluency/96/000000/link.png"/></a>
                 <p>status: dokončen</p>
             </div>
-            <div class="stranka"><iframe src="https://vojtovic.github.io/Programy_a_data/" width="100%" height="400"
+            <div class="stranka3"><iframe id="podsviceni2" src="https://vojtovic.github.io/Programy_a_data/" width="100%" height="400"
                     style="border:none;"></iframe></div>
         </div>
-
+        <script>
+            const zmena2 = document.querySelector ('#podsviceni2');
+    
+            zmena2.addEventListener('mouseover',function(){
+            zmena2.style.boxShadow = '5px 10px 18px red ';
+    })
+            
+            zmena2.addEventListener('mouseout',function(){
+            zmena2.style.boxShadow = '0px 0px 0px red';
+    })
+    
+    </script>
         </iframe>
 
         <div class="grid-container1">
             <div class="stranka1">
                 <h3>Git Tutorial</h3>
                 <p class="schovka">111111111111111111111111111111</p>
+                <a href="https://vojtovic.github.io/Git_tutorial/"><img src="https://img.icons8.com/fluency/96/000000/link.png"/></a>
                 <p>status: dokončen</p>
             </div>
-            <div class="stranka"><iframe src="https://vojtovic.github.io/Git_tutorial/" width="100%" height="400"
+            <div class="stranka4"><iframe id="podsviceni3" src="https://vojtovic.github.io/Git_tutorial/" width="100%" height="400"
                     style="border:none;"></iframe></div>
         </div>
-
+        <script>
+            const zmena3 = document.querySelector ('#podsviceni3');
+    
+            zmena3.addEventListener('mouseover',function(){
+            zmena3.style.boxShadow = '5px 10px 18px red ';
+    })
+            
+            zmena3.addEventListener('mouseout',function(){
+            zmena3.style.boxShadow = '0px 0px 0px red';
+    })
+    
+    </script>
+    </iframe>
         <div class="grid-container1">
             <div class="stranka1">
                 <h3>Kostka</h3>
                 <p class="schovka">111111111111111111111111111111</p>
+                <a href="https://vojtovic.github.io/kostka/"><img src="https://img.icons8.com/fluency/96/000000/link.png"/></a>
                 <p>status: nedokončen</p>
             </div>
-            <div class="stranka"><iframe src="https://vojtovic.github.io/kostka/" width="100%" height="400"
-                    style="border:none;"></iframe></div>
+            <div class="stranka5"><iframe id="podsviceni4" src="https://vojtovic.github.io/kostka/" width="100%" height="400"
+                    style="border:none;">
+                </iframe></div>
         </div>
-
+  
     </main>
     <footer>
         <hr>
@@ -101,9 +159,24 @@
             <div><a href="https://www.facebook.com/profile.php?id=100009873783368"><img
                         src="fotky/4202110_facebook_logo_social_social media_icon.png" alt="loga3"></a></div>
         </div>
+        <p class="zahlavi">vojtovicv@email.cz</p>
         <p class="zahlavi">© 2021 - IT1 Václav Vojtovič</p>
+        
 
     </footer>
+    <script>
+        const zmena4 = document.querySelector ('#podsviceni4');
+
+        zmena4.addEventListener('mouseover',function(){
+        zmena4.style.boxShadow = '5px 10px 18px red ';
+})
+        
+        zmena4.addEventListener('mouseout',function(){
+        zmena4.style.boxShadow = '0px 0px 0px red';
+})
+
+</script>
+
 </body>
 
 </html>
